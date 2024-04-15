@@ -1,0 +1,17 @@
+Es un objeto del navegador que permite realizar solicitudes HTTP desde javascript, se utilizan para recuperar datos de un servidor
+
+Configura la petición HTTP tomando tres parametros
+
+HTTP con GET
+Url 
+y un booleano que verá si es true o false
+
+onload se ejecuta cuando la petición de HTTP se completa y recibe un objeto Event como parametro
+regisrtra la respuesta del servidor
+
+Muestra:
+
+Object {json: (20) [-] } - Un arreglo
+
+=> Según investigué, es una función flecha que se utiliza en los for each, el for each va a iterar y la función flecha va a definir el callback para cada elemento. Simplifica el código, el llamado a la función
+
