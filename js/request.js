@@ -16,7 +16,58 @@ function getData(url){
         // Handle data
         array = JSON.parse(xhr.responseText);
         data.json=array;
+
+        array.forEach(element => {
+            tbody.append(genTr(element));
+        });
+        filtered = data.json.filter(function(e){
+            return e.title.includes("SSD");
+        });
+        console.log(filtered);
     };
     xhr.send();
 }
-getData();
+
+function genTr(json) {
+    tr = document.createElement("tr");
+    td1 = document.createElement("td");
+    td2 = document.createElement("td");
+    td3 = document.createElement("td");
+    td4 = document.createElement("td");
+    td5 = document.createElement("td");
+
+    td1.innerText = json.id;
+    td2.innerText = json.title;
+    td3.innerText = json.price;
+    td4.innerText = json.description;
+    td5.innerText = json.category;
+    tr.append(td1,td2,td3,td4,td5);
+    return tr;
+}
+
+btnLoad = document.getElementById("btnLoad");
+btnLoad.addEventListener("click", function(e) {
+    getData();
+});
+
+
+btnSearch = document.getElementById("btnSearch");
+btnSearch.addEventListener("click", function(e) {
+    tbody.innerHTML = "";
+    inputSearch = document.getElementById("inputSearch").value;
+    filtered = data.json.filter(function(i){
+        return i.title.includes(inputSearch);
+        
+    });
+
+    filtered.forEach(function (j) {
+        tbody.append(genTr(j));
+    });
+
+console.log(filtered);
+})
+
+
+
+
+
