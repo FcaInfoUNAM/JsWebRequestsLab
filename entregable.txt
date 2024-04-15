@@ -1,0 +1,25 @@
+Paso 1
+
+    ¿Qué es el objeto generado por XMLHttpRequest?
+        Es una herramienta que usan los navegadores web para enviar y recibir datos de un servidor sin necesidad de recargar la página completa
+        Actualizando solo una parte de la página con nuevos datos
+
+    ¿Qué hace el método open de xhr?
+        Prepara la petición que se enviará al servidor
+        Aquí le tenemos que indicar qué tipo de petición es (GET, POST, etc), además de la URL del servidor donde están los datos
+
+    ¿Qué hace el método onload de xhr?
+        Se ejecuta cuando XMLHttpRequest recibe una respuesta del servidor 
+        Aquí es donde podemos trabajar con los datos que obtenemos de la respuesta
+        
+        xhr.onload = function(url){
+            console.log(xhr.responseText); // Imprimimos la respuesta para poder revisarla en la consola
+            // Handle data
+            array = JSON.parse(xhr.responseText); // Hacemos un parse de la información para para convertirla a un formato JSON
+            data.json=array;
+        };
+
+    
+
+Paso 2
+    
