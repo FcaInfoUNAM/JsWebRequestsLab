@@ -1,0 +1,23 @@
+1. ¿qué es el objeto generado por XMLHttpRequest?
+Es un objeto nativo del navegador que permite realizar solicitudes HTTP desde JavaScript, estas solicitudes se utilizan para recuperar datos de un servidor web como texto HTML, JSON o archivos.
+
+2. ¿Qué hace el método open de xhr?
+Se encarga de inicializar y configurar una solicitud HTTP antes de enviarla al servidor, se configuras con argumentos obligatorios y opcionales.
+	a. Método: : Especifica el método HTTP que se utilizará para la solicitud, como "GET", 		"POST", "PUT", "DELETE" o cualquier otro método HTTP válido.
+
+	b. URL: Es la URL del recurso al que desea acceder, que es la dirección de la página web 	o los datos que desea recuperar.
+
+	c. Asincrono: Este es un valor booleano que indica si la solicitud debe ser asíncrona o 	no. 
+		
+	d. Nommbre de usuario: - opcional - especifica el nombre de usuario para la 	autenticación básica. 
+	e. Contraseña: - opcional - especifica la contraseña para la autenticación.
+
+3. ¿Qué hace el método onload de xhr?
+Se activa cuando una solicitud HTTP asíncrona se ha completado con éxito y la respuesta está lista. Proporciona una forma de acceder y procesar los datos de respuesta recibidos del servidor.
+
+4. Abre la consola en tu navegador web y escribe data y presiona enter ¿Qué muestra la consola?
+Se imprime lo que se devuelve de la solicitud json: Array(20)
+
+5. Explica qué significa => en el código
+El símbolo => en JavaScript se conoce como expresión lambda. Es una forma abreviada de escribir funciones, siendo una alternativa popular a la palabra clave function, sirve para hacer el código más limpio y fácil de leer.
+
