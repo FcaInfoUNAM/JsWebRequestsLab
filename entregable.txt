@@ -1,0 +1,24 @@
+Paso 1.
+¿Qué es el objeto generado por XMLHttpRequest?
+    - Es una interfaz JavaScript que se utiliza para realizar solicitudes HTTP asíncronas (también conocidas como AJAX) desde el navegador web hacia un servidor web.
+    - Enfocado a realizar peticiones web 
+
+¿Qué hace el método open de xhr?
+    - Es u nmétodo que realiza una inicialización de una solicitud HTTP y que toma tres parámetros
+    - open es como el enter a la petición que yo estoy haciendo
+
+¿Qué hace el método onload de xhr?
+    - Este método establece una función de devolución de llamda que se ejecuta cuando se completa la solicitud HTTP y se recibe una respuesta del servidor 
+    - 
+
+ Abre la consola en tu navegador web y escribe ```data``` y presiona enter ¿Qué muestra la consola?
+    - Nos muestra los que es un Json y esto nos ayuda a depurar el código 
+
+Paso2.
+Explica qué significa => en el código de ejemplo en entregable.txt
+    - Es una declaración de función y que manda un parámetro a la misma función
+        Para simplificar el código  
+
+Paso3.
+4. explica cómo es que cambia de color el botón y cómo se deshabilita en entregable.txt
+    - 
