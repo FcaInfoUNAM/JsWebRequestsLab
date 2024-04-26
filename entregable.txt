@@ -1,0 +1,26 @@
+PASO 1:
+--¿Qué es el objeto generado por XMLHttpRequest?
+Es un objeto que permite realizar solicitudes HTTP asíncronas desde JavaScript
+
+--¿Qué hace el método open de xhr?
+Lo que hace es realizar la solicitud desde javascript y recibe como parámetros el método de 
+solicitud (GET, POST, etc.) y la URL a la que se enviará la solicitud.
+
+--¿Qué hace el método onload de xhr?
+Lo que hace es activarse cuando la solicitud se completa de forma correcta, maneja la 
+respuesta de la solicitud y realiza las operaciones que siguen con los datos recibidos.
+
+--Abre la consola en tu navegador web y escribe ```data``` y presiona enter
+¿Qué muestra la consola?
+Muestra el objeto data que contiene los datos obtenidos con la API y los muestra en forma 
+de un arreglo de objetos.
+
+PASO 2:
+--Explica qué significa => en el código de ejemplo en entregable.txt
+Se utiliza para definir una función anónima que se ejecuta para cada elemento del arreglo, 
+para cada element dentro del arreglo, se ejecuta la función.
+
+PASO 3:
+--Explica cómo es que cambia de color el botón y cómo se deshabilita en entregable.txt
+Se habilita o deshabilita el botón usando disabled, en el cual depende el valor "true" o 
+"false"
