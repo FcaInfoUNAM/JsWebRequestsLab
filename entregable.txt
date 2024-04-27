@@ -1,0 +1,25 @@
+Paso 1
+4)
+¿qué es el objeto generado por XMLHttpRequest?
+Es una instancia de XMLHttpRequest que se utiliza para realizar solicitudes HTTP asíncronas desde el navegador. 
+Este objeto permite interactuar con el servidor web de manera asíncrona, lo que significa que el navegador no 
+se bloquea mientras espera la respuesta del servidor.
+
+¿Qué hace el método open de xhr?
+El método open() de XMLHttpRequest se utiliza para inicializar una solicitud HTTP.
+
+¿Qué hace el método onload de xhr?
+El método onload de XMLHttpRequest se utiliza para establecer un controlador de eventos que se activa cuando la 
+solicitud HTTP se completa satisfactoriamente, es decir, cuando se recibe una respuesta del servidor.
+
+5) 
+Mostrará el contenido del objeto data.
+
+En el código proporcionado, parece que data es un objeto vacío al principio del script. Luego, dentro del controlador 
+onload de XMLHttpRequest, se asigna un array de objetos JSON a data.json. Donde [Array de objetos JSON recibidos del servidor] 
+es el contenido de la respuesta del servidor convertida en un array de objetos JavaScript.
+
+Paso 2.
+
+2)
+=> Ayuda a simplificar el código
