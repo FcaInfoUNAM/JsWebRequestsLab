@@ -1,0 +1,19 @@
+PASO 1:
+Revisa el código del archivo request.js y responde las siguientes preguntas en entregable.txt
+¿qué es el objeto generado por XMLHttpRequest?
+El objeto generado por XMLHttpRequest es un objeto que proporciona funcionalidades para realizar solicitudes HTTP asíncronas desde un navegador web. 
+Se utiliza para interactuar con servidores web y recuperar datos en un formato específico, como JSON o XML.
+¿Qué hace el método open de xhr?
+El método open de xhr se utiliza para configurar la solicitud HTTP antes de enviarla. Toma tres parámetros: el método HTTP a utilizar (GET, POST, etc.), 
+la URL del recurso al que se va a realizar la solicitud y un booleano que indica si la solicitud debe ser asíncrona o no.
+¿Qué hace el método onload de xhr?
+se establece como un controlador de eventos que se ejecuta cuando la solicitud HTTP se completa correctamente,
+
+PASO2:
+Explica qué significa => en el código es una forma de resumir una funcion en este caso sería la funcion completa:
+La función de flecha element => { console.log(element); } es equivalente a:
+function(element) {
+    console.log(element);
+}
+
+PASO 3:
