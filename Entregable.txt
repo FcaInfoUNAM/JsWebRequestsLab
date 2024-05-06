@@ -1,0 +1,26 @@
+Paso1
+¿qué es el objeto generado por XMLHttpRequest?
+  Es una herramienta que permite realizar solicitudes HTTP desde un navegador web hacia un servidor web 
+  sin tener que recargar la página completa. Esto permite actualizar dinámicamente partes de una página
+  web sin interrumpir la experiencia del usuario.
+¿Qué hace el método open de xhr?
+    El método open de XMLHttpRequest se utiliza para configurar la solicitud HTTP antes de enviarla al servidor.
+    Toma varios parámetros, como el método HTTP (GET, POST, etc.), la URL a la que se va a hacer la solicitud y 
+    un indicador booleano opcional que especifica si la solicitud debería ser asíncrona o no.
+¿Qué hace el método onload de xhr?
+    El método onload de XMLHttpRequest es un evento que se activa cuando la solicitud se ha completado correctamente
+    y la respuesta del servidor está disponible. Este evento se puede utilizar para manejar la respuesta recibida del 
+    servidor, como procesar datos devueltos en formato JSON, actualizar la interfaz de usuario, entre otras acciones.
+Abre la consola en tu navegador web y escribe data y presiona enter ¿Qué muestra la consola?
+    La consola mostrará un array
+
+Paso2
+Explica qué significa => en el código de ejemplo en entregable.txt
+    "=>" es una arrow function que define una función anónima. Es una forma más concisa de escribir funciones en JavaScript.
+
+Paso3
+explica cómo es que cambia de color el botón y cómo se deshabilita
+    Cuando uno de click en el botón "Load Data", se llama a la función genData sin alterar el HTML.
+    Se cambia el color y se deshabilita el botón utilizando JavaScript de la siguiente manera:
+    - Para cambiar el color, se puede usar la propiedad "background-color" o "color" del estilo del botón.
+    - Para deshabilitar el botón, se establece la propiedad "disabled" en true.
