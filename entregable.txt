@@ -1,0 +1,25 @@
+PASO 1
+    
+    - ¿Qué es el objeto generado por XMLHttpRequest?
+        Es un objeto JavaScript que se utiliza para realizar solicitudes HTTP desde un navegador 
+        web hacia un servidor. 
+
+    - ¿Qué hace el método open de xhr?
+        Se utiliza para establecer la configuración básica de una solicitud HTTP antes de enviarla al servidor.
+
+    - ¿Qué hace el método onload de xhr? 
+        Se utiliza para establecer una función que será llamada cuando la solicitud HTTP se complete correctamente
+        y la respuesta del servidor esté lista para ser procesada.
+
+    - Abre la consola en tu navegador web y escribe data y presiona enter ¿Qué muestra la consola?
+        Muestra la respuesta a la solicitud HTTP a la API que contiene datos.
+
+PASO 2
+
+    - ¿Qué significa => en el código de ejemplo?
+        Significa que realizará una acción para cada elemento de un array.
+
+PASO 3
+
+    - ¿Cómo es que cambia de color el botón y cómo se deshabilita?
+        Filtra los productos según un valor de búsqueda, si hay elementos cambia el color a verde y si no hay elementos cambia el color a rojo y lo deshabilita.
