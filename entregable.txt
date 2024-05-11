@@ -1,0 +1,14 @@
+¿Qué es el objeto generado por XMLHttpRequest?
+    R: Se enfoca en la creación de petisiones a los servidores web.
+¿Qué hace el método open de xhr?
+    R: Sirve para inicializar la solitud de la petición cuando se crea la petición. 
+¿Qué hace el método onload de xhr?
+    R: Maneja eventos cuando la solicitud haya sido completada con éxito. 
+Abre la consola en tu navegador web y escribe data y presiona enter ¿Qué muestra la consola?
+    R: Nos  brinda la información de una forma diferente, 
+       nos despliega la información de la página web, nos permite visualizar
+       cómo podemos manejar la información en el futuro. 
+Explica qué significa => en el código de ejemplo en entregable.txt
+    R: Simplificar el código.
+Explica cómo es que cambia de color el botón y cómo se deshabilita en entregable.txt
+    R: Esto se da gracias a los oyentes de eventos. 
