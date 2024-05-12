@@ -1,0 +1,35 @@
+Benítez Aguilar Ángel Alberto
+
+PASO 1
+1. ¿Qué es el objeto generado por XMLHttpRequest?
+
+En este código, el objeto generado por XMLHttpRequest se llama xhr. Es una instancia de la interfaz XMLHttpRequest que permite a las páginas web realizar peticiones HTTP a servidores web.
+
+2. ¿Qué hace el método open de xhr?
+
+El método open de xhr se utiliza para inicializar una petición HTTP. En este caso, configura una petición GET a la URL https://fakestoreapi.com/products. La petición es asíncrona, lo que significa que no bloquea la ejecución del código JavaScript mientras se espera la respuesta del servidor.
+Enter a la petición que se realiza
+
+3. ¿Qué hace el método onload de xhr?
+
+El método onload de xhr se utiliza para especificar una función que se ejecutará cuando la petición HTTP haya finalizado correctamente. En este caso, la función de devolución de llamada:
+
+Registra la respuesta del servidor en la consola.
+Analiza la respuesta JSON en un array llamado array.
+Almacena el array en la propiedad json del objeto data.
+
+
+¿Qué muestra la consola?
+La consola muestra un arreglo json
+
+
+PASO 2
+
+Explicación de => en el código:
+
+La flecha => se usa en JavaScript para definir funciones de manera concisa. Es una alternativa a la palabra clave function, permite simplificar el codigo
+
+
+PASO 5 	
+
+
