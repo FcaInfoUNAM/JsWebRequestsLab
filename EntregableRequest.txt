@@ -1,0 +1,25 @@
+¿Qué es el objeto generado por XMLHttpRequest?
+Es una instancia que permite realizar peticiones HTTP asíncronas desde JavaScript. Se usa principalmente para intercambiar datos con un servidor web en segundo plano, sin necesidad de recargar toda la página.
+
+¿Qué hace el método open de xhr?
+Se utiliza para configurar la solicitud. Acepta varios parámetros, pero los más comunes son el método HTTP (como GET o POST) y la URL a la que se enviará la solicitud.
+
+¿Qué hace el método onload de xhr?
+Se ejecuta cuando la solicitud ha finalizado y ha recibido la respuesta del servidor.
+
+Abre la consola en tu navegador web y escribe data y presiona enter. ¿Qué muestra la consola?
+Mostrará el contenido del objeto data definido en el código JavaScript. Este objeto tiene una propiedad llamada json, que es un array de objetos.
+
+Explica qué significa => en el código
+Se está utilizando una función flecha como argumento para el método forEach del array. Esta función flecha toma un parámetro element y ejecuta el cuerpo de la función, que en este caso es simplemente imprimir ese elemento en la consola utilizando console.log().
+
+Explica cómo es que cambia de color el botón y cómo se deshabilita
+Para cambiar el color de un botón, generalmente se usa algo como esto:
+btnLoad.addEventListener("click", function() {
+    btnLoad.classList.add('button-clicked');
+});
+
+
+
+
+
