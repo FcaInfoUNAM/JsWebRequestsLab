@@ -1,0 +1,23 @@
+Paso 1
+¿Qué es el objeto generado por XMLHttpRequest?
+Es un objeto que hace peticiones a una URL sin tener que recargar la página completa
+
+¿Qué hace el método open de xhr?
+Inicializa una solicitud recién creada o reinicializa una existente
+
+¿Qué hace el método onload de xhr?
+Se activa al terminar de cargar la página
+
+¿Qué muestra la consola?
+Un JSON
+
+Paso 2
+¿Qué significa => en el código?
+Es una función flecha, es una alternativa compacta a una expresión de función tradicional, pero es limitada y no se puede utilizar en todas las situaciones, pero ayuda a simplificar el código
+
+Paso 3
+Explica cómo es que cambia de color el botón y cómo se deshabilita
+El color cambia por la clase, ya que el primero es primary y el segundo danger, por ende el primario será azul y el otro rojo
+
+¿Cómo se deshabilita?
+Escribiendo disabled después de la clase
