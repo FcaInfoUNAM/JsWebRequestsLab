@@ -1,0 +1,14 @@
+¿qué es el objeto generado por XMLHttpRequest?
+R.- Una petición al sitio web.
+
+¿Qué hace el método open de xhr?
+R.- Abrir la petición que se generó.
+
+¿Qué hace el método onload de xhr? 
+R.- Ejecutar código cuando se termine de cargar la página web.
+
+¿Qué muestra la consola?
+R.- Un array.
+
+Explica qué significa
+R.- En lugar de mostrar el array entero, muestra todos los elemntos del array por separado.
