@@ -8,15 +8,40 @@ btnRemove.addEventListener("click",function(e){
     tbody.innerHTML = "";
 });
 
+
+tnLoad.addEventListener('click', () => {
+
+});
+
+filtered = data.json.filter(function(e){
+    return e.title.includes(input.value);
+});
+
 //consumir api
 function getData(url){
-    xhr.open("GET", requestUrl, true); 
-    xhr.onload = function(url){
-        console.log(xhr.responseText);
+    array.forEach(element => {
+        tbody.append(genTr(element));
+    });
         // Handle data
         array = JSON.parse(xhr.responseText);
         data.json=array;
     };
     xhr.send();
-}
+    function genTr(json) {
+        tr = document.createElement("tr");
+        td1 = document.createElement("td");
+        td2 = document.createElement("td");
+        td3 = document.createElement("td");
+        td4 = document.createElement("td");
+        td5 = document.createElement("td");
+    
+        td1.innerText = json.id;
+        td2.innerText = json.title;
+        td3.innerText = json.price;
+        td4.innerText = json.description;
+        td5.innerText = json.category;
+        tr.append(td1,td2,td3,td4,td5);
+        return tr;
+    }
+    console.log(filtered);
 getData();
