@@ -1,0 +1,15 @@
+1. ¿Qué es el objeto generado por XMLHttpRequest?
+Proporciona una interfaz para realizar solicitudes HTTP desde el cliente hacia el servidor.
+
+2. ¿Qué hace el método open de xhr?
+Se inicializa una solicitud HTTP
+
+3. ¿Qué hace el método onload de xhr?
+Es un evento que se activa cuando la solicitud HTTP se completa satisfactoriamente.
+
+4.Ejecuta data en la consola de tu navegador ¿Qué muestra la consola?
+Muestra la estructura de los datos
+
+5.Explica qué significa => en el código de ejemplo
+Se utilizo para definir una función de flecha que se pasa como argumento al método forEach.
+
