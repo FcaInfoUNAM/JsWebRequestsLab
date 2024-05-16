@@ -1,0 +1,25 @@
+
+PASO 1
+¿qué es el objeto generado por XMLHttpRequest?
+R= Enfocado para hacer peticiones web. GET, POST, PUT, DELETE.
+
+ Con este objeto, puedes enviar solicitudes HTTP como GET, POST, PUT, DELETE, entre otras, y manejar las respuestas recibidas del servidor de forma asíncrona, lo que significa que puedes continuar ejecutando otras tareas en tu página web mientras esperas la respuesta del servidor.
+
+¿Qué hace el método open de xhr?
+R= Utiliza para inicializar una solicitud HTTP antes de enviarla al servidor. 
+
+Este método configura los detalles básicos de la solicitud, como el método HTTP a utilizar (GET, POST, etc.) y la URL a la que se enviará la solicitud
+
+¿Qué hace el método onload de xhr?
+R= evento que se activa cuando la solicitud HTTP se completa correctamente y la respuesta del servidor está disponible. Es decir, se ejecuta cuando toda la respuesta del servidor ha sido recibida y se puede acceder a ella.
+
+¿Qué muestra la consola?
+R= Arroja un JSON de 20 Arrays
+
+Explica qué significa => en el código
+R= Para tratamiento de datos y simplificar el codigo al llamar una función. 
+__________________________________________________________________________
+PASO 3
+
+R= Explica cómo es que cambia de color el botón y cómo se deshabilita. 
+el botón se cambia de color y se deshabilita mediante la manipulación del DOM y la interacción con eventos de clic.
