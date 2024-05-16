@@ -1,0 +1,6 @@
+XMLHttpRequest (XHR) es un objeto propio del navegador que facilita la realización de solicitudes HTTP asíncronas (conocidas como AJAX) desde JavaScript. Permite hacer solicitudes WEB.
+El método open de xhr se encarga de aceptar una solicitud realizada, es como presionar enter para enviar la solicitud.
+El evento onload se utiliza para ejecutar una función justo después de que una página se ha cargado por completo.
+
+Paso 2.2
+=> se utiliza para señalar que en una sección del código se ejecuta una función.
