@@ -1,0 +1,26 @@
+Paso 1
+
+P1:
+
+En este código, el objeto generado por XMLHttpRequest se llama xhr. Es una instancia de la interfaz XMLHttpRequest que permite a las páginas web realizar solicitudes HTTP a servidores web.
+
+P2:
+
+El método open de xhr se usa para inicializar una solicitud HTTP. En este caso, configura una solicitud GET a la URL https://fakestoreapi.com/products. La solicitud es asíncrona, lo que significa que no bloquea la ejecución del código JavaScript mientras se espera la respuesta del servidor.
+
+P3:
+
+El método onload de xhr se usa para especificar una función que se ejecutará cuando la solicitud HTTP se haya completado correctamente. En este caso, la función de devolución de llamada:
+
+Registra la respuesta del servidor en la consola.
+Analiza la respuesta JSON en un array llamado array.
+Almacena el array en la propiedad json del objeto data.
+¿Qué muestra la consola?
+La consola muestra un arreglo JSON.
+
+Paso 2
+
+Explicación de => en el código:
+
+La flecha => se usa en JavaScript para definir funciones de manera concisa. Es una alternativa a la palabra clave function, permitiendo simplificar el código.
+
