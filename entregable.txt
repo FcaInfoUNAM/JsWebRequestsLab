@@ -1,0 +1,36 @@
+1. ¿Qué es el objeto generado por XMLHttpRequest?
+Se crea en la línea que dice:
+	var xhr = new XMLHttpRequest();
+En donde se crea un objeto de nombre xhr y de tipo XMLHttpRequest. Este objeto sirve para:
+- Manejar solicitudes HTTP (Sus peticiones y sus respuestas)
+- Comunicarse con servidores o APIs
+- Obtener datos sin necesidad de recargar la página
+
+2. ¿Qué hace el método Open de xhr?
+Denotado en la línea:
+	xhr.open("GET", requestUrl, true);
+Este comando se encarga de la configuración de la petición de Http. Asimismo, su sintaxis tiene diferentes partes, las cuales son:
+- "GET" se refiere al método que se utilizará para la solicitud de información.
+- requestUrl se refiere a la dirección de la API con la que se desea conectar.  
+- True indica la manera de trabajo asincrónica, en la que el código puede seguirse ejecutando sin bloquear la página.
+
+3. ¿Qué hace el método Onload de xhr? 
+En nuestro código aparece el evento: 
+	xhr.onload = function(url){
+    		console.log(xhr.responseText);
+    		array = JSON.parse(xhr.responseText);
+    		data.json = array;
+	};
+Este evento se dispara una vez que se recibe una respuesta del servidor a la petición Http. De esta manera, dentro del evento se ejecuta lo siguiente:
+1- console.log(xhr.responseText); - Imprime la respuesta del server en forma de texto. 
+2- array = JSON.parse(xhr.responseText); - Convierte el JSON a un array de JavaScript. 
+3- data.json = array; - Guarda los datos del API en el array. 
+
+4. Abre la consola en tu navegador web y escribe data y presiona enter ¿Qué muestra la consola?
+Muestra los datos almacenados en el Array previamente creado. Así como su herencia interna. 
+
+5. ¿Qué significa =>? 
+Conocido como una función flecha, es una manera más corta de escribir una función que recorra elemento por elemento de un arreglo. 
+
+6. Los botones cambian de color debido a la configuración de su clase en el Bootstrap.css, asimismo, se le puede poner como atributo "Disabled" para deshabilitarlo. 
+
