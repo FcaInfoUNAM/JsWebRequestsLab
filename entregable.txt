@@ -1,0 +1,25 @@
+
+PASO 1
+
+¿Qué es el objeto generado por XMLHttpRequest?
+Es un objeto de JavaScript diseñado para interactuar con servidores. Permite recuperar datos de una URL sin tener que recargar la página completa, siendo la base de AJAX.
+
+¿Qué hace el método open de xhr?
+Inicializa la solicitud. Define el método de envío (GET, POST, etc.), la URL de destino y si la solicitud será asíncrona (true) o síncrona (false).
+
+¿Qué hace el método onload de xhr?
+Es una función que se ejecuta automáticamente cuando la solicitud HTTP se completa con éxito. Aquí es donde se procesan los datos devueltos por el servidor.
+
+Consola 'data':
+Se muestra el arreglo de objetos JSON con los productos descargados de la API (siempre que la carga ya haya finalizado).
+
+PASO 2 
+
+Explica qué significa => en el código:
+El símbolo '=>' define una "Función Flecha". Es una forma más compacta de escribir funciones en JavaScript. 
+
+PASO 3
+
+Explica cómo cambia de color el botón y cómo se deshabilita:
+- Color: Cambia debido a las clases CSS de Bootstrap. Al interactuar (hover/active), CSS invierte los colores automáticamente.
+- Deshabilitado: Se logra modificando la propiedad del DOM 'disabled' a 'true'. Esto hace que el navegador ignore los clics y cambie visualmente su opacidad.
