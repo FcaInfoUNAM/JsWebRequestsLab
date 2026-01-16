@@ -1,0 +1,15 @@
+• ¿Qué es el objeto generado por XMLHttpRequest?
+Es un objeto que permite realizar peticiones HTTP asíncronas desde JavaScript.
+
+• ¿Qué hace el método open de xhr?
+Configura e inicializa la petición HTTP.
+
+• ¿Qué hace el método onload de xhr?
+Define un manejador de eventos que se ejecuta cuando la petición HTTP se completa exitosamente.
+
+• Al abrir la consola en el navegador e ingresar data, sale un json con un arreglo.
+
+• => es un Arrow Function, sirve para simplificar funciones anónimas en JavaScript.
+
+• Se puede cambiar de color aun botón modificando la propiedad style.backgroundColor de ese elemento. 
+Se deshabilita cambiando la propiedad del botón de disabled a true.
