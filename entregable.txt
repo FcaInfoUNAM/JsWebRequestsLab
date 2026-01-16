@@ -1,0 +1,22 @@
+Respuestas laboratorio
+
+Paso 1
+1) ¿Qué es el objeto generado por XMLHttpRequest?
+Es una instancia de XMLHttpRequest que permite realizar solicitudes HTTP y manejar la respuesta de forma asíncrona.
+
+2) ¿Qué hace el método open de xhr?
+Inicializa/configura la petición (método HTTP, URL y si es asíncrona) pero no la envía todavía.
+
+3) ¿Qué hace el método onload de xhr?
+Define la función callback que se ejecuta cuando la solicitud termina correctamente (readyState DONE). Ahí se procesa la respuesta.
+
+4) En la consola, al escribir data ¿qué muestra?
+Muestra el objeto data. Cuando la petición ya terminó, tiene la propiedad json con el arreglo de productos; antes de cargar puede estar vacío.
+
+Paso 2
+5) ¿Qué significa => en el código de ejemplo?
+Es una función flecha (arrow function). Es una forma corta de escribir funciones y no crea su propio this.
+
+Paso 3
+6) ¿Cómo cambia de color el botón y cómo se deshabilita?
+El color cambia al modificar sus clases CSS (por ejemplo, quitar btn-outline-primary y agregar btn-success). Se deshabilita asignando la propiedad disabled = true.
