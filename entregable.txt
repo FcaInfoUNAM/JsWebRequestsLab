@@ -1,0 +1,46 @@
+ENTREGABLE - Laboratorio JS Web Requests
+=========================================
+
+PASO 1 - Preguntas sobre request.js:
+
+1. ¿Qué es el objeto generado por XMLHttpRequest?
+   XMLHttpRequest es un objeto de JavaScript que permite realizar peticiones HTTP asíncronas al servidor sin necesidad de recargar la página. Es la base de AJAX (Asynchronous JavaScript and XML) y permite obtener datos de APIs o servidores en segundo plano.
+
+2. ¿Qué hace el método open de xhr?
+   El método open() configura o inicializa una petición HTTP. En el código, open("GET", requestUrl, true) especifica:
+   - "GET": el método HTTP a usar
+   - requestUrl: la URL del servidor a la cual se hará la petición
+   - true: indica que la petición será asíncrona (no bloqueará el código mientras espera respuesta)
+
+3. ¿Qué hace el método onload de xhr?
+   El método onload es un manejador de eventos que se ejecuta cuando la petición HTTP se completa exitosamente. Dentro de esta función se procesa la respuesta recibida del servidor (xhr.responseText).
+
+4. Al escribir 'data' en la consola del navegador:
+   Se muestra un objeto con una propiedad 'json' que contiene el array de productos obtenido de la API fakestoreapi.com/products.
+
+
+PASO 2 - Significado de =>:
+
+La sintaxis => es una función flecha (arrow function) de ES6. Es una forma más concisa de escribir funciones anónimas.
+Por ejemplo:
+   array.forEach(element => { console.log(element); });
+Es equivalente a:
+   array.forEach(function(element) { console.log(element); });
+
+La diferencia principal es que las funciones flecha son más cortas y no tienen su propio contexto 'this'.
+
+
+PASO 3 - Cambio de color y deshabilitación del botón:
+
+El botón cambia de color mediante las clases de Bootstrap. En el HTML se define:
+- btn-outline-primary: botón con borde azul
+- btn-outline-danger: botón con borde rojo
+- btn-outline-success: botón con borde verde
+
+Para deshabilitar un botón se puede usar la propiedad 'disabled' del elemento:
+   boton.disabled = true;  // Deshabilita el botón
+   boton.disabled = false; // Habilita el botón
+
+También se pueden agregar/remover clases con:
+   boton.classList.add("disabled");
+   boton.classList.remove("disabled");
