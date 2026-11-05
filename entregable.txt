@@ -1,0 +1,14 @@
+LABORATORIO JsWebRequestsLab
+Alumno: Axel Alfonso García Núñez
+
+PASO 1
+- El objeto generado por XMLHttpRequest es un objeto del navegador que permite hacer peticiones HTTP a un servidor o API sin recargar la página.
+- El método open configura la petición: recibe el método HTTP (por ejemplo GET) y la URL. Todavía no la envía.
+- onload es el manejador que se ejecuta cuando la petición termina y llega la respuesta; ahí se procesan los datos recibidos.
+- Al escribir data en la consola, se muestra el objeto con la información recibida de la API, cuya propiedad json es el arreglo de productos (id, title, price, description, category).
+
+PASO 2
+=> es la sintaxis de las funciones flecha: una forma corta de escribir una función anónima, por ejemplo element => { ... }.
+
+PASO 3
+filter recorre un arreglo y devuelve uno nuevo solo con los elementos para los que la función devuelve true. includes indica si una cadena contiene el texto buscado. Juntos, filtran los productos cuyo título contiene el texto escrito en el campo de búsqueda.
