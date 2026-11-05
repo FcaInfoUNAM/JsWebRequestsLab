@@ -1,0 +1,13 @@
+- ¿Qué es el objeto generado por XMLHttpRequest?
+  Es un objeto integrado del navegador (API web) que permite realizar peticiones HTTP a un servidor web para enviar o recibir datos en segundo plano sin necesidad de recargar la página completa. 
+
+- ¿Qué hace el método open de xhr?
+  Inicializa una petición HTTP recién creada. Recibe como parámetros principales el método HTTP (como 'GET' o 'POST') y la URL del recurso que se desea consultar.
+
+- ¿Qué hace el método onload de xhr?
+  Es un evento que se ejecuta automáticamente cuando la petición HTTP se ha completado con éxito y la respuesta del servidor ha cargado por completo.
+
+- ¿Qué significa => en el código anterior? Es una función flecha o "arrow function", una sintaxis más corta y moderna en JavaScript para escribir funciones anónimas 
+
+- ¿Qué hace filter y cómo funciona includes en este contexto?
+El método filter recorre el arreglo original y crea un nuevo arreglo con todos los elementos que cumplan con la condición establecida en la función. En este contexto, el método includes verifica si el título del artículo (e.title) contiene el texto ingresado en el campo de búsqueda (input.value), devolviendo verdadero (true) si hay coincidencia o falso (false) si no la hay.
