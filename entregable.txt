@@ -1,0 +1,38 @@
+¿Qué es el objeto generado por XMLHttpRequest?
+Es una API integrada en los navegadores web que permite realizar 
+peticiones HTTP hacia un servidor. Sirve para enviar y solicitar 
+datos (como archivos JSON, XML o texto plano) en segundo plano, 
+lo que permite actualizar partes de una página web sin tener que 
+recargarla por completo.
+
+¿Qué hace el método open de xhr?
+Inicializa y configura los parámetros de la petición web. Está 
+indicando al objeto que utilizará el método HTTP "GET", que el 
+destino es la URL de requestUrl, y el true le indica que la petición 
+será asíncrona (es decir, que el navegador no se quedará congelado 
+esperando la respuesta).
+
+¿Qué hace el método onload de xhr?
+Define una función (un manejador de eventos) que se va a ejecutar 
+automáticamente solo hasta que la petición web haya terminado de 
+forma exitosa. Es el bloque de código encargado de recibir la respuesta 
+del servidor y procesarla; en tu script, ahí es donde transforma la 
+respuesta de texto a JSON y la guarda en la variable data.
+
+¿Qué muestra la consola al escribir data y presionar Enter?
+Muestra un objeto de JavaScript que contiene una propiedad llamada json.
+Dentro de esa propiedad está el arreglo con los 20 objetos de productos 
+que se descargaron desde la API de FakeStore gracias a la llamada final de getData().
+
+
+¿Qué hace filter y cómo funciona includes en este contexto?
+
+filter: Es un método de los arreglos en JavaScript que recorre todos 
+los elementos y crea un nuevo arreglo guardando únicamente aquellos 
+que cumplan con una condición específica. En este código, filtra la 
+lista completa de productos de la API para quedarse solo con los que 
+coincidan con la búsqueda.
+
+includes: Es un método de las cadenas de texto (strings) que verifica 
+si una palabra o fragmento de texto está contenido dentro de un texto 
+más grande. Devuelve true si lo encuentra y false si no.
