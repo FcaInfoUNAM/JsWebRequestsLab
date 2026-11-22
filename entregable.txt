@@ -1,0 +1,34 @@
+¿Qué es el objeto generado por XMLHttpRequest?
+
+Es un objeto que permite enviar solicitudes HTTP y recibir respuestas.
+
+¿Qué hace el método open de xhr?
+
+Configura el HTTP, su URL, el GET y true para la petición asincrona. 
+
+¿Qué hace el método onload de xhr?
+
+Ejecuta una función cuando la petición finaliza.
+
+
+4. ¿Qué muestra la consola al escribir data?
+
+Muestra el objeto JSON, que es el arreglo que contiene los productos devueltos por la API.
+
+
+5. ¿Qué significa => en el código anterior?
+
+Define una función flecha que va a recorrer cada elemento del arreglo
+
+
+6. ¿Qué hace filter y cómo funciona includes en este contexto?
+
+filter recorre el arreglo y devuelve un nuevo arreglo según la condición, includes verifica si una cadena contiene un valor.
+
+
+
+
+
+
+
+
