@@ -1,0 +1,20 @@
+=== PASO 1 ===
+- ¿Qué es el objeto generado por XMLHttpRequest?
+Es una instancia de la API del navegador que permite realizar peticiones HTTP asíncronas a un servidor o API sin recargar la página.
+
+- ¿Qué hace el método open de xhr?
+Inicializa y configura la petición indicando el método HTTP (por ejemplo, "GET"), la URL destino y si la petición es asíncrona.
+
+- ¿Qué hace el método onload de xhr?
+Define la función que se ejecuta cuando la petición HTTP finaliza y la respuesta está disponible para procesarse.
+
+- ¿Qué muestra la consola al escribir `data` y presionar Enter?
+Muestra el objeto `data` (por ejemplo, `{ json: [...] }` con el arreglo de productos cargado desde la API, o `{}` si aún no se ha poblado).
+
+=== PASO 2 ===
+- ¿Qué significa `=>` en el código anterior?
+Es la sintaxis de función flecha (arrow function) de JavaScript, una forma corta de escribir funciones anónimas donde a la izquierda van los parámetros y a la derecha el cuerpo o valor de retorno.
+
+=== PASO 3 ===
+- ¿Qué hace `filter` y cómo funciona `includes` en este contexto?
+`filter` recorre el arreglo y regresa un nuevo arreglo solo con los elementos cuya función devuelve `true`. En este caso, `e.title.includes(input.value)` revisa si el título del producto (`e.title`) contiene el texto escrito en el campo de búsqueda (`input.value`).
