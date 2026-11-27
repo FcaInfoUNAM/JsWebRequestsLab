@@ -1,0 +1,50 @@
+LABORATORIO - PETICIONES WEB CON JAVASCRIPT (XMLHttpRequest + DOM)
+Nombre: Aguiñiga Olvera Alejandro   Grupo: 1596
+
+Paso 1
+
+1. Que es el objeto generado por XMLHttpRequest?
+   Es un objeto del navegador que permite hacer peticiones HTTP a un
+   servidor de forma asincrona, sin recargar la pagina.
+
+2.  Que hace el metodo open de xhr?
+  configura la peticion: indica el metodo HTTP (GET), la URL a la que se hara (https://fakestoreapi.com/
+   products) y que sera asincrona (true).
+
+3. Que hace el metodo onload de xhr?
+   funcion callback que el navegador ejecuta cuando la peticion termina y la respuesta ya llego
+
+4.  Que muestra la consola al escribir "data"?
+   Muestra el objeto {json: Array(20)}: un objeto con la propiedad "json",
+   que contiene el arreglo con los 20 productos devueltos por la API. Cada
+   producto tiene id, title, price, description, category, image y rating
+   
+
+
+Paso 2 
+
+1. Que significa => en el codigo?
+
+      Es una forma corta de escribir una funcion anonima. 
+      A la izquierda de la flecha van los parametros aqui "element"     
+      y a la derecha el cuerpo de la funcion
+
+
+paso 3
+
+
+1. Que hace filter y como funciona includes en este contexto?
+   filter es un metodo de los arreglos. Recorre el arreglo, ejecuta la
+   funcion que se le da con cada elemento y devuelve un nuevo arreglo solo
+   con los elementos para los que esa funcion regreso true
+
+   includes es un metodo de las cadenas de texto
+   devuelve true si "busqueda" aparece en cualquier parte de "texto" y false
+   si no. Distingue mayusculas de minusculas.
+
+
+paso 4
+
+Al pulsar Search se filtra data.json con el valor del campo de texto, se
+vacia el tbody  y se llena solo con las filas de los productos que coinciden (filtered.forEach + tbody.append(genTr(element))).
+
